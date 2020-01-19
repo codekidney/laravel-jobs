@@ -2,7 +2,6 @@
     "name": "codekidney/jobs",
     "description": "Job offer provider",
     "keywords": ["framework", "laravel"],
-    "type": "package",
     "license": "MIT",
     "authors": [
         {
@@ -10,22 +9,20 @@
             "email": "info@kamilnowak.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable" : true,
     "require": {
         "php": ">=7.0.0",
         "laravel/framework": "~5.8"
+    },
+    "autoload": {
+        "psr-4": {
+             "Codekidney\\Jobs\\": "src"
+        }
     },
     "extra": {
         "laravel": {
             "providers": [
                 "Codekidney\\Jobs\\JobsServiceProvider"
             ]
-        }
-    },
-    "autoload": {
-        "psr-4": {
-             "Codekidney\\Jobs\\": "src/"
         }
     }
 }
