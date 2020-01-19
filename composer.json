@@ -2,7 +2,7 @@
     "name": "codekidney/jobs",
     "description": "Job offer provider",
     "keywords": ["framework", "laravel"],
-    "type": "project",
+    "type": "package",
     "license": "MIT",
     "authors": [
         {
