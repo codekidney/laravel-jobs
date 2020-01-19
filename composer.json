@@ -17,13 +17,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "codekidney\\jobs\\JobsServiceProvider"
+                "Codekidney\\Jobs\\JobsServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+             "Codekidney\\Jobs\\": "src"
         }
     }
 }
